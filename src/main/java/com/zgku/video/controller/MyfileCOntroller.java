@@ -38,7 +38,7 @@ public class MyfileCOntroller {
         fileName = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + "_" + fileName;
         System.out.print("（加个时间戳，尽量避免文件名称重复）保存的文件名为: "+fileName+"\n");
         //加个时间戳，尽量避免文件名称重复
-        String path = "E:/fileUpload/" +fileName;
+        String path = "D:/fileUpload/" +fileName;
         //String path = "E:/fileUpload/" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + "_" + fileName;
         //文件绝对路径
         System.out.print("保存文件绝对路径"+path+"\n");
